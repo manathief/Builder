@@ -3,3 +3,7 @@
 export_presets.cfg
 .mono/
 *.DS_Store
+
+bin/
+git_api.gdnlib
+git_api.gdns
