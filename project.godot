@@ -21,7 +21,17 @@ _global_script_class_icons={
 [application]
 
 config/name="Builder"
+run/main_scene="res://Main.tscn"
 config/icon="res://icon.png"
+
+[display]
+
+window/size/width=480
+window/size/height=720
+window/size/resizable=false
+window/size/always_on_top=true
+window/stretch/mode="2d"
+window/stretch/aspect="keep"
 
 [gdnative]
 
@@ -49,6 +59,11 @@ texture={
 "stream": false,
 "svg/scale": 1.0
 }
+
+[layer_names]
+
+2d_physics/layer_1="mob"
+2d_physics/layer_2="player"
 
 [physics]
 
